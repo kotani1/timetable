@@ -51,9 +51,10 @@ class TeacherController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update()
+    public function update(Request $request)
     {
-        //
+        $teacher = Teacher::find($request);
+        
     }
 
     /**
