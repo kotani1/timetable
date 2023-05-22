@@ -1,5 +1,5 @@
 <div class="container">
-    <h1>教員登録画面の編集</h1>
+    <h1>教員登録画面の編集test</h1>
     {{-- <form action="{{route('teachers.update', ['teacher' => $teacher->id])}}" method="post"> --}}
         @csrf
         @method('PUT')
