@@ -23,6 +23,13 @@
                   {{$teacher ->user_name}}<br>
                   {{$teacher ->permit}}<br>
                   {{$teacher ->created_at}}<br>
+                  <form id="delete_{{ $teacher->id }}" method="post" action="{{ route('teacher.destroy', ['teacher' => $teacher->id]) }}">
+                    @csrf
+                    @method('delete')
+                  <td class="px-4 py-3">
+                    <a href="#" data-id="{{ $teacher->id }}" onclick="deletePost(this)" class="">削除</a>
+                  </td>
+                  </form>
                 @endforeach
             @else
                 登録された教員は現在いません。
@@ -33,4 +40,14 @@
 </div>
 
 </body>
+
+<script>
+function deletePost(e) {
+    'use strict';
+    if (confirm('本当に削除してもいいですか？')) {
+      document.getElementById('delete_' + e.dataset.id).submit();
+    }
+  }
+</script>
+
 </html>
