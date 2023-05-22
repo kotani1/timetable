@@ -37,6 +37,7 @@
     
 </body>
 <script>
+    'use strict';
     var select = confirm("本当に登録しますか？");
     return select;
 </script>
