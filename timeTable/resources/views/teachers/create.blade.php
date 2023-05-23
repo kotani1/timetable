@@ -9,7 +9,7 @@
     <title>教員登録(入力)</title>
 </head>
 <body>
-    <form method="POST" action="{{teacher.store}}" onsubmit="return confirm()">
+    <form method="POST" action="{{route('teachers.store')}}" onsubmit="return confirm('本当に登録しますか？')">
         @csrf
     <p>ユーザー名</p>
     <div class="inner">
@@ -27,18 +27,13 @@
     <div class="inner">
     <select name="permit">
         <option value="main" class="inner">権限を選ぶ</option>
-        <option value="first" class="inner">1</option>
-        <option value="second" class="inner">2</option>
-        <option value="third" class="inner">3</option>
+        <option value="1" class="inner">1</option>
+        <option value="2" class="inner">2</option>
+        <option value="3" class="inner">3</option>
     </select>
     </div>
-    <p><input type="submit" value="会員登録を行う"></p> 
+    <p><input type="submit" value="会員登録を行う"></p>
     </form>
-    
+
 </body>
-<script>
-    'use strict';
-    var select = confirm("本当に登録しますか？");
-    return select;
-</script>
 </html>

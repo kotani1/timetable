@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+    <a href="{{route('teachers.create')}}">登録画面へ</a>
     <h2 class="">
         登録教員一覧
     </h2>
@@ -23,7 +24,7 @@
                   {{$teacher ->user_name}}<br>
                   {{$teacher ->permit}}<br>
                   {{$teacher ->created_at}}<br>
-                  <form id="delete_{{ $teacher->id }}" method="post" action="{{ route('teacher.destroy', ['teacher' => $teacher->id]) }}">
+                  <form id="delete_{{ $teacher->id }}" method="post" action="{{route('teachers.destroy',$teacher->id)}}">
                     @csrf
                     @method('delete')
                   <td class="px-4 py-3">
