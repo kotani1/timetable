@@ -1,5 +1,6 @@
-p {
+p{
     text-align: center;
+<<<<<<< HEAD
   }
   
   .inner{
@@ -50,4 +51,18 @@ p {
   margin-left:3px;
   margin-top:11px;
   box-shadow:none;
+=======
+}
+
+.inner{
+  text-align: center;
+}
+
+.example{
+  text-align: center;
+}
+
+.error{
+  color: red;
+>>>>>>> 71abfca40dcd1cb68f096ed428953609e58df88c
 }
