@@ -62,8 +62,9 @@ class TeacherController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit()
+    public function edit($teacher_id)
     {
+        dd($teacher_id);
         return view('teachers.edit');
     }
 
@@ -72,8 +73,13 @@ class TeacherController extends Controller
      */
     public function update(Request $request)
     {
-        $teacher = Teacher::find($request);
-
+        $teacher = Teacher::find($request->teacher_id);
+        $teacher->update([
+            "user_name" => $request->user_name,
+            "login_id" => $request->login_id,
+            "password" => $request->password,
+        ]);
+        return redirect()->route('teachers.edit');
     }
 
     /**
