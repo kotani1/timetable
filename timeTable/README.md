@@ -68,3 +68,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ##
 git fetch
 git checkout develop
+git commit -m "コミットメッセージ入力！"
