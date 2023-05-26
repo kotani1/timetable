@@ -29,10 +29,25 @@ class TeacherController extends Controller
      */
     public function store(Request $request)
     {
-        $request->user_name;
-        $request->password;
-        $request->user_name;
-        Teacher::create($request->post());
+        $errors = [];
+        if($request->user_name == ''){
+            $errors['user_name'] = 'ユーザー名が空です';
+        }
+        if($request->login_id == ''){
+            $errors['login_id'] = 'ログインIDが空です';
+        }
+        if($request->password == ''){
+            $errors['password'] = 'パスワードが空です';
+        }
+        if(mb_strlen($request->password) <= 7){
+            $errors['password_short'] = 'パスワードが8文字以上ではありません';
+        }
+        if($errors == []){
+            Teacher::create($request->post());
+            return redirect()->route('teachers.create');
+        }else{
+            return view('teacher.create',compact('errors'));
+        }
     }
 
     /**
