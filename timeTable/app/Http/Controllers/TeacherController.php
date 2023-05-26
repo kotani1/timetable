@@ -64,8 +64,8 @@ class TeacherController extends Controller
      */
     public function edit($teacher_id)
     {
-        dd($teacher_id);
-        return view('teachers.edit');
+        $teacher = Teacher::find($teacher_id);
+        return view('teachers.edit', compact('teacher'));
     }
 
     /**
