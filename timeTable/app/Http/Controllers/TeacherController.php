@@ -29,6 +29,9 @@ class TeacherController extends Controller
      */
     public function store(Request $request)
     {
+        $request->user_name;
+        $request->password;
+        $request->user_name;
         Teacher::create($request->post());
     }
 
@@ -54,7 +57,7 @@ class TeacherController extends Controller
     public function update(Request $request)
     {
         $teacher = Teacher::find($request);
-        
+
     }
 
     /**

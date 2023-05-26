@@ -26,7 +26,7 @@
     <p>権限</p>
     <div class="inner">
     <select name="permit">
-        <option value="main" class="inner">権限を選ぶ</option>
+        <option value="0" class="inner">0</option>
         <option value="1" class="inner">1</option>
         <option value="2" class="inner">2</option>
         <option value="3" class="inner">3</option>
