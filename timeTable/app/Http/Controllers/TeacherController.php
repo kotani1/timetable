@@ -21,7 +21,8 @@ class TeacherController extends Controller
      */
     public function create()
     {
-        return view('teachers.create');
+        $errors = [];
+        return view('teachers.create',compact('errors'));
     }
 
     /**
@@ -46,7 +47,7 @@ class TeacherController extends Controller
             Teacher::create($request->post());
             return redirect()->route('teachers.create');
         }else{
-            return view('teacher.create',compact('errors'));
+            return view('teachers.create',compact('errors'));
         }
     }
 
