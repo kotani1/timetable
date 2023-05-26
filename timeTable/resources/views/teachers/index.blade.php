@@ -23,7 +23,7 @@
                   <p class="flex">教員名：{{$teacher ->user_name}}</p>
                   {{-- <p>{{$teacher ->permit}}</p><br> --}}
                   {{-- <p>{{$teacher ->created_at}}</p><br> --}}
-                  <button onclick="location.href='{{ route('teachers.edit', ['teacher' => $teacher->id])}}'" class="">編集</button>
+                  <button onclick="location.href='{{ route('teachers.edit', $teacher->id)}}'" class="">編集</button>
                   <form id="delete_{{ $teacher->id }}" method="post" action="{{route('teachers.destroy',$teacher->id)}}">
                     @csrf
                     @method('delete')
@@ -38,7 +38,7 @@
                 登録された教員は現在いません。
             @endif
         </div>
-   
+
 </body>
 
 <script>
