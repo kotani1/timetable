@@ -71,15 +71,14 @@ class TeacherController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request)
+    public function update(Request $request, $teacher_id)
     {
-        $teacher = Teacher::find($request->teacher_id);
+        $teacher = Teacher::find($teacher_id);
         $teacher->update([
             "user_name" => $request->user_name,
             "login_id" => $request->login_id,
-            "password" => $request->password,
         ]);
-        return redirect()->route('teachers.edit');
+        return redirect()->route('teachers.index');
     }
 
     /**
