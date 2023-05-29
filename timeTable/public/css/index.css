@@ -1,12 +1,5 @@
-<<<<<<< HEAD
 /* .inner{
   text-align: center;
-=======
-.inner {
-  /* width: 500px; */
-  width: max-content;
-  margin: 0 auto;
->>>>>>> 8094065888e410a050aa4647797289ee98a17fd8
 }
 
 .flex {
@@ -16,7 +9,6 @@
 .mar_r_30 {
   margin-right: 30px;
 }
-<<<<<<< HEAD
 .del a:hover{
   background:#D8D4D3;
   color:#FFFFFF;
@@ -24,14 +16,3 @@
   margin-top:11px;
   box-shadow:none;
 } */
-=======
-
-.mar_b_50 {
-  margin-bottom: 50px;
-}
-
-.delete_button {
-  background-color: red;
-  color: white;
-}
->>>>>>> 8094065888e410a050aa4647797289ee98a17fd8

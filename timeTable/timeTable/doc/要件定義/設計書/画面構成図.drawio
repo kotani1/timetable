@@ -1,0 +1,241 @@
+<mxfile host="65bd71144e" pages="3">
+    <diagram name="教員" id="bD6oFuaL1lih6L8hBn8b">
+<<<<<<< HEAD
+        <mxGraphModel dx="566" dy="1596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+=======
+        <mxGraphModel dx="929" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+>>>>>>> eefe113be22326619ec9c280eece4196c7a14a91
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="esKYb7dzhcHLJuG7XQ9S-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="z47oT-_rVA-ZsCTS-xNa-1" target="z47oT-_rVA-ZsCTS-xNa-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="esKYb7dzhcHLJuG7XQ9S-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="z47oT-_rVA-ZsCTS-xNa-1" target="z47oT-_rVA-ZsCTS-xNa-19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="30" width="360" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-3" value="教員の名前" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="80" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-4" value="変更" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="80" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-5" value="削除" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="80" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-6" value="教員一覧画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="-2" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-7" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="32" width="360" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-9" value="登録" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="242" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-11" value="登録画面へ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="40" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-12" value="教員登録画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="700" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-15" value="名前" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="62" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-17" value="ログインID" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="112" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-18" value="パスワード" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="162" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-19" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="478" width="360" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-20" value="変更" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="710" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-21" value="教員変更画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="450" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-22" value="名前" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="815" y="510" width="130" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-23" value="ログインID" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="560" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-24" value="パスワード" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="610" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-25" value="権限" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="202" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="esKYb7dzhcHLJuG7XQ9S-1" value="権限" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="660" width="120" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+<<<<<<< HEAD
+=======
+    <diagram id="zQAE8sdNej2iIpmsQsoR" name="科目管理">
+        <mxGraphModel dx="1025" dy="1598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="iT-UYaAkA2U1PRnWw-Tt-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iT-UYaAkA2U1PRnWw-Tt-3" target="iT-UYaAkA2U1PRnWw-Tt-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-21" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iT-UYaAkA2U1PRnWw-Tt-3" target="DRWSu66qAj8vcgx0ASd4-12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT-UYaAkA2U1PRnWw-Tt-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="30" width="360" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT-UYaAkA2U1PRnWw-Tt-4" value="科目名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="90" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT-UYaAkA2U1PRnWw-Tt-5" value="編集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="130" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT-UYaAkA2U1PRnWw-Tt-6" value="削除" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="130" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT-UYaAkA2U1PRnWw-Tt-7" value="科目一覧画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="-2" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT-UYaAkA2U1PRnWw-Tt-8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="32" width="360" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT-UYaAkA2U1PRnWw-Tt-9" value="登録" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="340" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT-UYaAkA2U1PRnWw-Tt-10" value="科目登録へ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#19050F;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="40" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT-UYaAkA2U1PRnWw-Tt-11" value="科目登録画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="700" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT-UYaAkA2U1PRnWw-Tt-12" value="科目名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="62" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT-UYaAkA2U1PRnWw-Tt-13" value="年度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="112" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT-UYaAkA2U1PRnWw-Tt-14" value="期" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="160" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT-UYaAkA2U1PRnWw-Tt-17" value="科目変更画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="450" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="iT-UYaAkA2U1PRnWw-Tt-21" value="授業形態" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="202" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-3" value="java" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="130" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-8" value="単位数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="240" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-9" value="科目内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="280" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-11" value="科目分類" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="310" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-12" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="480" width="360" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-13" value="登録" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=default;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="788" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-14" value="科目名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="510" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-15" value="年度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="560" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-16" value="期" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="610" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-17" value="授業形態" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="650" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-18" value="単位数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="688" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-19" value="科目内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="728" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-20" value="科目分類" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="820" y="758" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-24" value="&amp;lt;select&amp;gt;&lt;br&gt;前期か後期の二択" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;labelBackgroundColor=default;position2=0;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="90" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-26" value="&amp;lt;select&amp;gt;&lt;br&gt;講義か実習の二択" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;labelBackgroundColor=default;position2=1;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="132" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-27" value="&amp;lt;select&amp;gt;&lt;br&gt;1~16" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;labelBackgroundColor=default;position2=0;" vertex="1" parent="1">
+                    <mxGeometry x="940" y="170" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-28" value="&amp;lt;textarea&amp;gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;labelBackgroundColor=default;position2=0.93;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="212" width="150" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="DRWSu66qAj8vcgx0ASd4-29" value="&amp;lt;textarea&amp;gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;labelBackgroundColor=default;position2=0;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="250" width="180" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+>>>>>>> eefe113be22326619ec9c280eece4196c7a14a91
+    <diagram id="UFyc1SQM00tft6RK8IVc" name="ログイン">
+        <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4OQxtln0b7rb7Y1bzaFB-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="360" width="230" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="4OQxtln0b7rb7Y1bzaFB-3" value="ログイン画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="-30" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4OQxtln0b7rb7Y1bzaFB-5" value="管理者id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="26.25" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4OQxtln0b7rb7Y1bzaFB-6" value="管理者パスワード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="85" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4OQxtln0b7rb7Y1bzaFB-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="32.5" width="80" height="17.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="4OQxtln0b7rb7Y1bzaFB-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="90" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="4OQxtln0b7rb7Y1bzaFB-9" value="送信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="160" width="60" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="uQdb6mCHKT8XTp-ZCeqp" name="クラス">
+<<<<<<< HEAD
+        <mxGraphModel dx="566" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+=======
+        <mxGraphModel dx="511" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+>>>>>>> eefe113be22326619ec9c280eece4196c7a14a91
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="Pv0KwIvhaWAS_ySV_ahE-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="320" width="160" height="160" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+<<<<<<< HEAD
+</mxfile>
+=======
+</mxfile>
+>>>>>>> eefe113be22326619ec9c280eece4196c7a14a91
