@@ -10,35 +10,30 @@
 </head>
 
 <body>
-
   <div class="inner">
-    {{-- <a href="{{route('teachers.create')}}">登録画面へ</a> --}}
     <button onclick="location.href='{{route('teachers.create')}}'">登録画面へ</button>
-  </div>
-
-         <div class="inner">
-            @if (!$teachers->isEmpty())
-                @foreach ($teachers as $teacher )
-                  {{-- <p>{{$teacher ->login_id}}</p><br> --}}
-                  <p class="flex">教員名：{{$teacher ->user_name}}</p>
-                  {{-- <p>{{$teacher ->permit}}</p><br> --}}
-                  {{-- <p>{{$teacher ->created_at}}</p><br> --}}
-                  <button onclick="location.href='{{ route('teachers.edit', $teacher->id)}}'" class="">編集</button>
-                  <form id="delete_{{ $teacher->id }}" method="post" action="{{route('teachers.destroy',$teacher->id)}}">
-                    @csrf
-                    @method('delete')
-                   <td>
-                    <div class="del">
-                    <a href="#" data-id="{{ $teacher->id }}" onclick="deletePost(this)" class="">削除</a>
-                    </div>
-                  </td>
-                  </form>
-                @endforeach
-            @else
-                登録された教員は現在いません。
-            @endif
+      @if (!$teachers->isEmpty())
+        @foreach ($teachers as $teacher)
+        <div class="flex mar_b_50">
+          <div class="mar_r_30">
+            教員名：{{$teacher ->user_name}}
+          </div>
+          <div class="mar_r_30">
+            <button onclick="location.href='{{ route('teachers.edit', $teacher->id)}}'" class="">編集</button>
+          </div>
+          <div>
+            <form id="delete_{{ $teacher->id }}" method="post" action="{{route('teachers.destroy',$teacher->id)}}" onsubmit="return confirm('本当に削除しますか？')">
+              @csrf
+              @method('delete')
+              <button type="submit" class="delete_button">削除</button>
+            </form>
+          </div>
         </div>
-
+        @endforeach
+      @else
+          登録された教員は現在いません。
+      @endif
+  </div>
 </body>
 
 <script>
