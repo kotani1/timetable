@@ -1,116 +1,116 @@
-<mxfile host="app.diagrams.net" modified="2023-05-20T05:59:23.950Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="N1W9VZ2mZ-n7ZtqeO6gL" version="21.2.9" type="google" pages="3">
-  <diagram name="教員" id="bD6oFuaL1lih6L8hBn8b">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="esKYb7dzhcHLJuG7XQ9S-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z47oT-_rVA-ZsCTS-xNa-1" target="z47oT-_rVA-ZsCTS-xNa-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="esKYb7dzhcHLJuG7XQ9S-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z47oT-_rVA-ZsCTS-xNa-1" target="z47oT-_rVA-ZsCTS-xNa-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="180" y="30" width="360" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-3" value="教員の名前" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="240" y="80" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-4" value="変更" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="80" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-5" value="削除" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="460" y="80" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-6" value="教員一覧画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="160" y="-2" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-7" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="700" y="32" width="360" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-9" value="登録" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="860" y="242" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-11" value="登録画面へ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="320" y="40" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-12" value="教員登録画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="700" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-15" value="名前" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="62" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-17" value="ログインID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="112" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-18" value="パスワード" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="162" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-19" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="700" y="478" width="360" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-20" value="変更" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="710" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-21" value="教員変更画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="700" y="450" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-22" value="名前" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="815" y="510" width="130" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-23" value="ログインID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="560" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-24" value="パスワード" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="610" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="z47oT-_rVA-ZsCTS-xNa-25" value="権限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="202" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="esKYb7dzhcHLJuG7XQ9S-1" value="権限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="660" width="120" height="20" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="UFyc1SQM00tft6RK8IVc" name="ログイン">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="4OQxtln0b7rb7Y1bzaFB-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="360" width="230" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="4OQxtln0b7rb7Y1bzaFB-3" value="ログイン画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="350" y="-30" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4OQxtln0b7rb7Y1bzaFB-5" value="管理者id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="380" y="26.25" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4OQxtln0b7rb7Y1bzaFB-6" value="管理者パスワード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="354" y="85" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="4OQxtln0b7rb7Y1bzaFB-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="32.5" width="80" height="17.5" as="geometry" />
-        </mxCell>
-        <mxCell id="4OQxtln0b7rb7Y1bzaFB-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="90" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="4OQxtln0b7rb7Y1bzaFB-9" value="送信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="450" y="160" width="60" height="30" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="uQdb6mCHKT8XTp-ZCeqp" name="クラス">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="Pv0KwIvhaWAS_ySV_ahE-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="320" y="320" width="160" height="160" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e" pages="3">
+    <diagram name="教員" id="bD6oFuaL1lih6L8hBn8b">
+        <mxGraphModel dx="566" dy="1596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="esKYb7dzhcHLJuG7XQ9S-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="z47oT-_rVA-ZsCTS-xNa-1" target="z47oT-_rVA-ZsCTS-xNa-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="esKYb7dzhcHLJuG7XQ9S-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="z47oT-_rVA-ZsCTS-xNa-1" target="z47oT-_rVA-ZsCTS-xNa-19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="30" width="360" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-3" value="教員の名前" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="80" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-4" value="変更" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="80" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-5" value="削除" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="80" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-6" value="教員一覧画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="-2" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-7" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="32" width="360" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-9" value="登録" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="242" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-11" value="登録画面へ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="40" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-12" value="教員登録画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="700" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-15" value="名前" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="62" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-17" value="ログインID" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="112" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-18" value="パスワード" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="162" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-19" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="478" width="360" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-20" value="変更" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="710" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-21" value="教員変更画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="450" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-22" value="名前" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="815" y="510" width="130" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-23" value="ログインID" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="560" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-24" value="パスワード" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="610" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="z47oT-_rVA-ZsCTS-xNa-25" value="権限" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="202" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="esKYb7dzhcHLJuG7XQ9S-1" value="権限" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="820" y="660" width="120" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="UFyc1SQM00tft6RK8IVc" name="ログイン">
+        <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4OQxtln0b7rb7Y1bzaFB-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="360" width="230" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="4OQxtln0b7rb7Y1bzaFB-3" value="ログイン画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="-30" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4OQxtln0b7rb7Y1bzaFB-5" value="管理者id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="26.25" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4OQxtln0b7rb7Y1bzaFB-6" value="管理者パスワード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="85" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4OQxtln0b7rb7Y1bzaFB-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="32.5" width="80" height="17.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="4OQxtln0b7rb7Y1bzaFB-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="90" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="4OQxtln0b7rb7Y1bzaFB-9" value="送信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="160" width="60" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="uQdb6mCHKT8XTp-ZCeqp" name="クラス">
+        <mxGraphModel dx="566" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="Pv0KwIvhaWAS_ySV_ahE-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="320" width="160" height="160" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
