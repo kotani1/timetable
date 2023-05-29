@@ -1,17 +1,22 @@
-.inner{
-  width: 1000px;
+.inner {
+  /* width: 500px; */
+  width: max-content;
   margin: 0 auto;
 }
-.flex{
+
+.flex {
   display: flex;
 }
-.mar_r_30{
+
+.mar_r_30 {
   margin-right: 30px;
 }
-.mar_b_50{
+
+.mar_b_50 {
   margin-bottom: 50px;
 }
-.delete_button{
+
+.delete_button {
   background-color: red;
   color: white;
 }
