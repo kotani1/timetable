@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/css/index.css">
     @vite('resources/css/app.css')
-    <title>教員登録アプリ</title>
+    <title>教員登録アプリ(test)</title>
 </head>
 
 <body>
@@ -53,9 +53,11 @@
                       </form>
                       @endforeach
                       @else
+                      <td class="px-4 py-3 divide-y divide-light-blue-700">
                       <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">登録された教員が現在存在しません。</font>
+                        <font style="vertical-align: inherit;">登録された教員が現在存在しません。
                       </font>
+                    </td>
                       @endif
                     </td>
                 </tbody>
