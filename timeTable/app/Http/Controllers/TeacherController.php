@@ -62,9 +62,8 @@ class TeacherController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit($teacher_id)
+    public function edit()
     {
-        dd($teacher_id);
         return view('teachers.edit');
     }
 

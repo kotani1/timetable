@@ -20,3 +20,4 @@ Route::get('/test', function () {
     return view('test');
 });
 Route::resource('teachers', 'TeacherController');
+Route::resource('subjects', 'SubjectController');
