@@ -15,7 +15,7 @@
     <div class="flex flex-col text-center w-full mb-20">
       <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">
         <font style="vertical-align: inherit;">
-          <font style="vertical-align: inherit;">科目登録一覧</font>
+          <font style="vertical-align: inherit;">科目登録一覧test</font>
         </font>
       </h1>
     </div>
