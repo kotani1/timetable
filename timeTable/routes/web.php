@@ -20,4 +20,5 @@ Route::get('/test', function () {
     return view('test');
 });
 Route::resource('teachers', 'TeacherController');
+Route::get('subjects/edit', 'SubjectController@edit');
 Route::resource('subjects', 'SubjectController');
