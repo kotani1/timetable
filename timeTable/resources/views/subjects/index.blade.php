@@ -43,6 +43,9 @@
                       <font style="vertical-align: inherit;">
                         <font class="text-xl" style=" vertical-align: inherit;">{{$subject ->subject_name}}</font>
                         <font class="text-xl" style=" vertical-align: inherit;">{{$subject ->subject_content}}</font>
+                        <font class="text-xl" style=" vertical-align: inherit;">{{$subject ->subject_classification}}</font>
+                        <font class="text-xl" style=" vertical-align: inherit;">{{$subject ->teaching_form}}</font>
+                        <font class="text-xl" style=" vertical-align: inherit;">{{$subject ->number_of_units}}</font>
                       </font>
                       <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onclick="location.href='{{ route('teachers.edit', ['teacher' => $teacher->id])}}'" class="">編集</button>
                       <form id="delete_{{ $subject->id }}" method="post" action="{{route('subjects.destroy',$subject->id)}}">
