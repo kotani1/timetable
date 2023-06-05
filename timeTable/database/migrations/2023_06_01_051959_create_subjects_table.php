@@ -13,12 +13,13 @@ return new class extends Migration
     {
         Schema::create('subjects', function (Blueprint $table) {
             $table->id();
-            $table->string('name', 30);
+            $table->string('subject_name', 30);
             $table->string('year', 30);
             $table->string('period', 30);
+            $table->string('teaching_form', 30);
             $table->integer('number_of_units');
-            $table->string('classification', 30);
-            $table->string('content');
+            $table->string('subject_classification', 30);
+            $table->string('subject_content');
             $table->timestamps();
         });
     }

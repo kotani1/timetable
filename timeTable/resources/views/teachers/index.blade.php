@@ -20,6 +20,10 @@
       </h1>
     </div>
   </div>
+  <div class="flex justify-center items-center">
+    <button onclick="location.href='{{route('teachers.create')}}'" class="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">
+    登録画面へ</button>
+  </div>
         <section class="text-gray-600 body-font">
           <div class="container px-5 py-24 mx-auto">
             <div class="lg:w-2/3 w-full mx-auto overflow-auto">
@@ -41,15 +45,15 @@
                   <tr>
                     <td class="px-4 py-3 divide-y divide-light-blue-700">
                       <font style="vertical-align: inherit;">
-                        <font class="text-xl" style=" vertical-align: inherit;">{{$teacher ->user_name}}</font>
+                        <font class="text-xl" style=" vertical-align: inherit;">教員名：{{$teacher ->user_name}}</font>
                       </font>
-                      <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onclick="location.href='{{ route('teachers.edit', ['teacher' => $teacher->id])}}'" class="">編集</button>
+                    <div class="flex">
+                      <button class="flex ml-auto mr-4 mt-4 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onclick="location.href='{{ route('teachers.edit', ['teacher' => $teacher->id])}}'">編集</button>
                       <form id="delete_{{ $teacher->id }}" method="post" action="{{route('teachers.destroy',$teacher->id)}}">
                         @csrf
                         @method('delete')
-                       <td>
-                        <a class="flex ml-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded" href="#" data-id="{{ $teacher->id }}" onclick="deletePost(this)" class="">削除</a>
-                      </td>
+                        <button class="flex ml-auto mr-4 mt-4 text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded" href="#" data-id="{{ $teacher->id }}" onclick="deletePost(this)">削除</button>
+                      </div>
                       </form>
                       @endforeach
                       @else
@@ -63,13 +67,9 @@
                 </tbody>
               </table>
             </div>
-            <div class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto">
-              <button onclick="location.href='{{route('teachers.create')}}'" class="flex ml-auto my-8 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-              登録画面へ</button>
-            </div>
           </div>
         </section>
-   
+
 </body>
 
 <script>
