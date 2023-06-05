@@ -20,6 +20,10 @@
       </h1>
     </div>
   </div>
+  <div class="flex justify-center items-center">
+    <button onclick="location.href='{{route('subjects.create')}}'" class="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">
+    登録画面へ</button>
+  </div>
         <section class="text-gray-600 body-font">
           <div class="container px-5 py-24 mx-auto">
             <div class="lg:w-2/3 w-full mx-auto overflow-auto">
@@ -41,19 +45,20 @@
                   <tr>
                     <td class="px-4 py-3 divide-y divide-light-blue-700">
                       <font style="vertical-align: inherit;">
-                        <font class="text-xl" style=" vertical-align: inherit;">{{$subject ->year}}</font>
-                        <font class="text-xl" style=" vertical-align: inherit;">{{$subject ->name}}</font>
-                        <font class="text-xl" style=" vertical-align: inherit;">{{$subject ->content}}</font>
-                        <font class="text-xl" style=" vertical-align: inherit;">{{$subject ->classification}}</font>
-                        <font class="text-xl" style=" vertical-align: inherit;">{{$subject ->number_of_units}}</font>
+                        <font class="text-2xl" style=" vertical-align: inherit;">年度：{{$subject ->year}}年</font><br>
+                        <font class="text-2xl" style=" vertical-align: inherit;">期：{{$subject ->period}}</font><br>
+                        <font class="text-2xl" style=" vertical-align: inherit;">科目名：{{$subject ->subject_name}}</font><br>
+                        <font class="text-2xl" style=" vertical-align: inherit;">授業形態：{{$subject ->teaching_form}}</font><br>
+                        <font class="text-2xl" style=" vertical-align: inherit;">科目内容：{{$subject ->subject_content}}</font><br>
+                        <font class="text-2xl" style=" vertical-align: inherit;">科目分類：{{$subject ->subject_classification}}</font>
                       </font>
-                      <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onclick="location.href='{{ route('subjects.edit', ['subject' => $subject->id])}}'" class="">編集</button>
+                    <div class="flex">
+                      <button class="flex ml-auto mr-4 mt-4  text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onclick="location.href='{{ route('subjects.edit', ['subject' => $subject->id])}}'">編集</button>
                       <form id="delete_{{ $subject->id }}" method="post" action="{{route('subjects.destroy',$subject->id)}}">
                         @csrf
                         @method('delete')
-                       <td>
-                        <a class="flex ml-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded" href="#" data-id="{{ $subject->id }}" onclick="deletePost(this)" class="">削除</a>
-                      </td>
+                        <button class="flex ml-auto mr-4 mt-4  text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded" href="#" data-id="{{ $subject->id }}" onclick="deletePost(this)">削除</button>
+                      </div>
                       </form>
                       @endforeach
                       @else
@@ -66,10 +71,6 @@
                     </td>
                 </tbody>
               </table>
-            </div>
-            <div class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto">
-              <button onclick="location.href='{{route('subjects.create')}}'" class="flex ml-auto my-8 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-              登録画面へ</button>
             </div>
           </div>
         </section>
