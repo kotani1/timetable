@@ -47,12 +47,12 @@
                         <font class="text-xl" style=" vertical-align: inherit;">{{$subject ->classification}}</font>
                         <font class="text-xl" style=" vertical-align: inherit;">{{$subject ->number_of_units}}</font>
                       </font>
-                      <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onclick="location.href='{{ route('teachers.edit', ['teacher' => $teacher->id])}}'" class="">編集</button>
+                      <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onclick="location.href='{{ route('subjects.edit', ['subject' => $subject->id])}}'" class="">編集</button>
                       <form id="delete_{{ $subject->id }}" method="post" action="{{route('subjects.destroy',$subject->id)}}">
                         @csrf
                         @method('delete')
                        <td>
-                        <a class="flex ml-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded" href="#" data-id="{{ $teacher->id }}" onclick="deletePost(this)" class="">削除</a>
+                        <a class="flex ml-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded" href="#" data-id="{{ $subject->id }}" onclick="deletePost(this)" class="">削除</a>
                       </td>
                       </form>
                       @endforeach
@@ -73,7 +73,7 @@
             </div>
           </div>
         </section>
-   
+
 </body>
 
 <script>
