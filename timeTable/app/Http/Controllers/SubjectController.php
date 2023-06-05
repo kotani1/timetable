@@ -56,10 +56,15 @@ class SubjectController extends Controller
     public function update(Request $request, $subject_id)
     {
         $subject = Subject::find($subject_id);
-        // $subject->update([
-        //     "user_name" => $request->user_name,
-        //     "login_id" => $request->login_id,
-        // ]);
+        $subject->update([
+            "subject_name" => $request->subject_name,
+            "year" => $request->year,
+            "period" => $request->period,
+            "teaching_form" => $request->teaching_form,
+            "number_of_units" => $request->number_of_units,
+            "subject_classification" => $request->subject_classification,
+            "subject_content" => $request->subject_content,
+        ]);
         return redirect()->route('subjects.index');
     }
 

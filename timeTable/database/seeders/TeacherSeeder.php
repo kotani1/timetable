@@ -19,5 +19,11 @@ class TeacherSeeder extends Seeder
             'password' => 'password',
             'permit' => 1,
         ]);
+        Teacher::create([
+            'login_id' => 'kamano',
+            'user_name' => 'kamano',
+            'password' => 'password',
+            'permit' => 0,
+        ]);
     }
 }
