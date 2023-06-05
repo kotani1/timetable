@@ -70,3 +70,9 @@ git fetch
 git checkout develop
 git commit -m "コミットメッセージ入力！"
 git pull origin develop
+
+## laravel起動
+php artisan serve
+npm run dev
+
+2つを同時に起動している事
