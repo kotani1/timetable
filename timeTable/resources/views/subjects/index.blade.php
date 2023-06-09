@@ -36,7 +36,7 @@
                         <font style="vertical-align: inherit;">科目名</font>
                       </font>
                     </th>
-                    <th class="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br"></th>
+                    {{-- <th class="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br"></th> --}}
                   </tr>
                 </thead>
                 <tbody>
