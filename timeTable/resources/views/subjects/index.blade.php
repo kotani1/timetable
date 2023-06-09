@@ -43,23 +43,24 @@
                   @if (!$subjects->isEmpty())
                   @foreach ($subjects as $subject )
                   <tr>
-                    <td class="px-4 py-3 divide-y divide-light-blue-700">
+                    <td class="px-4 py-3 divide-y divide-light-blue-700 border-4 border-gray-500/100">
                       <font style="vertical-align: inherit;">
                         <font class="text-2xl" style=" vertical-align: inherit;">年度：{{$subject ->year}}年</font><br>
                         <font class="text-2xl" style=" vertical-align: inherit;">期：{{$subject ->period}}</font><br>
                         <font class="text-2xl" style=" vertical-align: inherit;">科目名：{{$subject ->subject_name}}</font><br>
                         <font class="text-2xl" style=" vertical-align: inherit;">授業形態：{{$subject ->teaching_form}}</font><br>
                         <font class="text-2xl" style=" vertical-align: inherit;">科目内容：{{$subject ->subject_content}}</font><br>
-                        <font class="text-2xl" style=" vertical-align: inherit;">科目分類：{{$subject ->subject_classification}}</font>
+                        <font class="text-2xl flex " style=" vertical-align: inherit;">科目分類：{{$subject ->subject_classification}}
+                          {{-- <div class=""> --}}
+                            <button class="flex ml-auto mr-4 mt-4  text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onclick="location.href='{{ route('subjects.edit', ['subject' => $subject->id])}}'">編集</button>
+                            <form id="delete_{{ $subject->id }}" method="post" action="{{route('subjects.destroy',$subject->id)}}">
+                              @csrf
+                              @method('delete')
+                              <button class="flex ml-auto mr-4 mt-4  text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded " href="#" data-id="{{ $subject->id }}" onclick="deletePost(this)">削除</button>
+                          {{-- </div> --}}
+                            </form>
+                        </font><br>
                       </font>
-                    <div class="flex">
-                      <button class="flex ml-auto mr-4 mt-4  text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onclick="location.href='{{ route('subjects.edit', ['subject' => $subject->id])}}'">編集</button>
-                      <form id="delete_{{ $subject->id }}" method="post" action="{{route('subjects.destroy',$subject->id)}}">
-                        @csrf
-                        @method('delete')
-                        <button class="flex ml-auto mr-4 mt-4  text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded" href="#" data-id="{{ $subject->id }}" onclick="deletePost(this)">削除</button>
-                      </div>
-                      </form>
                       @endforeach
                       @else
                       <td class="px-4 py-3 divide-y divide-light-blue-700">

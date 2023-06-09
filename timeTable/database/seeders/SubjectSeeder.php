@@ -31,5 +31,14 @@ class SubjectSeeder extends Seeder
             "subject_classification" => "これはテストです",
             "subject_content" =>"これはテストです"
         ]);
+        Subject::create([
+            "subject_name" => "php1",
+            "year" => "2023",
+            "period" => "前期",
+            "teaching_form" => "実習",
+            "number_of_units" => 2,
+            "subject_classification" => "これはテストです",
+            "subject_content" =>"これはテストです"
+        ]);
     }
 }
