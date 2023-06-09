@@ -25,13 +25,13 @@
                 <option value="後期">後期</option>
             </select>
         </p>
-        <p class="teaching_form">授業形態:
+        <p class="name">授業形態:
             <select name="teaching_form" id="">
                 <option value="実習">実習</option>
                 <option value="講義">講義</option>
             </select>
         </p>
-        <p class="number">単位数:　
+        <p class="number">単位数:
             <select name="number_of_units" id="">
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -42,7 +42,7 @@
                 <option value="7">7</option>
                 <option value="8">8</option>
                 <option value="9">9</option>
-                <option value="10">10</opti4on>
+                <option value="10">10</option>
             </select>
         </p>
 
