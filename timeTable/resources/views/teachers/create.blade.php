@@ -13,28 +13,19 @@
         @csrf
     <p>ユーザー名:
     <input type="text" maxlength="100" placeholder="ユーザー名" id="user_name" name="user_name" class="inner">
-    @if (!empty($errors['user_name']))
-    </p>
-    <p class="error">{{$errors['user_name']}}</p>
-    @endif
+    <p>{{$errors->first('user_name')}}</p>
     <p>ログインID:
     <input type="text" maxlength="200" id="login_id" name="login_id">
-    @if (!empty($errors['login_id']))
-    <p class="error">{{$errors['login_id']}}</p>
-    @endif
+    <p>{{$errors->first('login_id')}}</p>
     </p>
     <p>パスワード:
     <input type="password" maxlength="20" placeholder="半角英数8文字以上" id="password" name="password" class="inner">
-    @if (!empty($errors['password']))
-    <p class="error">{{$errors['password']}}</p>
-    @endif
-    @if (!empty($errors['password_short']))
-    <p class="error">{{$errors['password_short']}}</p>
-    @endif
+    <p>{{$errors->first('password')}}</p>
     </p>
     <p>権限</p>
     <div class="inner">
     <select name="permit" >
+        <option value="-" class="inner">-</option>
         <option value="0" class="inner">0</option>
         <option value="1" class="inner">1</option>
         <option value="2" class="inner">2</option>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Teacher;
+use App\Http\Requests\TeacherRequest;
 
 class TeacherController extends Controller
 {
@@ -21,34 +22,34 @@ class TeacherController extends Controller
      */
     public function create()
     {
-        $errors = [];
-        return view('teachers.create',compact('errors'));
+        // $errors = [];
+        return view('teachers.create');
     }
 
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store(TeacherRequest $request)
     {
-        $errors = [];
-        if($request->user_name == ''){
-            $errors['user_name'] = 'ユーザー名が空です';
-        }
-        if($request->login_id == ''){
-            $errors['login_id'] = 'ログインIDが空です';
-        }
-        if($request->password == ''){
-            $errors['password'] = 'パスワードが空です';
-        }
-        if(mb_strlen($request->password) <= 7){
-            $errors['password_short'] = 'パスワードが8文字以上ではありません';
-        }
-        if($errors == []){
-            Teacher::create($request->post());
-            return redirect()->route('teachers.create');
-        }else{
-            return view('teachers.create',compact('errors'));
-        }
+        // $errors = [];
+        // if($request->user_name == ''){
+        //     $errors['user_name'] = 'ユーザー名が空です';
+        // }
+        // if($request->login_id == ''){
+        //     $errors['login_id'] = 'ログインIDが空です';
+        // }
+        // if($request->password == ''){
+        //     $errors['password'] = 'パスワードが空です';
+        // }
+        // if(mb_strlen($request->password) <= 7){
+        //     $errors['password_short'] = 'パスワードが8文字以上ではありません';
+        // }
+        // if($errors == []){
+        //     Teacher::create($request->post());
+        //     return redirect()->route('teachers.create');
+        // }else{
+        //     return view('teachers.create',compact('errors'));
+        // }
     }
 
     /**
