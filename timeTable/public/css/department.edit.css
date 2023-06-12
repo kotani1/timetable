@@ -1,0 +1,32 @@
+#test{
+    /* 中央寄せ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+    /* 幅自動 */
+    width: auto;
+}
+
+/* 戻る */
+.return{
+    
+    width: auto;
+    /* 左寄せ */
+    text-align: left;
+    
+}
+
+/* クラス名 */
+.name{
+
+    background-color: white;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+
+.send{
+    color: red;
+}
