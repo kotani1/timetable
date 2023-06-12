@@ -10,7 +10,7 @@
 </head>
 <body>
     <h1 class="h1">科目変更画面</h1>
-    <form action="{{route('subjects.update',$subject->id)}}" method="POST">
+    <form action="{{route('departments.update',$department->id)}}" method="POST">
 
     
         <div class="return" >
@@ -18,7 +18,7 @@
         </div>
 
         <p class="name" id="test">クラス名:
-            <input type="text" name="subject_name" id="name" value="{{$subject->subject_name}}">
+            <input type="text" name="department_name" id="name" value="{{$department->department_name}}">
         </p>
 
         <div class="send" id="test">
