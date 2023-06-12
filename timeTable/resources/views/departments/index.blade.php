@@ -21,7 +21,7 @@
     </div>
   </div>
   <div class="flex justify-center items-center">
-    <button onclick="location.href='{{route('classes.create')}}'" class="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">
+    <button onclick="location.href='{{route('departments.create')}}'" class="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">
     登録画面へ</button>
   </div>
         <section class="text-gray-600 body-font">
@@ -40,18 +40,23 @@
                   </tr>
                 </thead>
                 <tbody>
-                  @if (!$subjects->isEmpty())
-                  @foreach ($classes as $classe )
+                  @if (!$departments->isEmpty())
+                  @foreach ($departments as $department )
                   <tr>
                     <td class="px-4 py-3 divide-y divide-light-blue-700 border-4 border-gray-500/100">
                       <font style="vertical-align: inherit;">
-                        <font class="text-2xl" style=" vertical-align: inherit;">クラス名：{{$classe ->class_name}}年</font><br>
+                        <font class="text-2xl" style=" vertical-align: inherit;">年度：{{$department ->year}}年</font><br>
+                        <font class="text-2xl" style=" vertical-align: inherit;">期：{{$department ->period}}</font><br>
+                        <font class="text-2xl" style=" vertical-align: inherit;">科目名：{{$department ->department_name}}</font><br>
+                        <font class="text-2xl" style=" vertical-align: inherit;">授業形態：{{$department ->teaching_form}}</font><br>
+                        <font class="text-2xl" style=" vertical-align: inherit;">科目内容：{{$department ->department_content}}</font><br>
+                        <font class="text-2xl flex " style=" vertical-align: inherit;">科目分類：{{$department ->department_classification}}
                           {{-- <div class=""> --}}
-                            <button class="flex ml-auto mr-4 mt-4  text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onclick="location.href='{{ route('classes.edit', ['classe' => $classe->id])}}'">編集</button>
-                            <form id="delete_{{ $classe->id }}" method="post" action="{{route('classes.destroy',$classe->id)}}">
+                            <button class="flex ml-auto mr-4 mt-4  text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onclick="location.href='{{ route('departments.edit', ['department' => $department->id])}}'">編集</button>
+                            <form id="delete_{{ $department->id }}" method="post" action="{{route('departments.destroy',$department->id)}}">
                               @csrf
                               @method('delete')
-                              <button class="flex ml-auto mr-4 mt-4  text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded " href="#" data-id="{{ $classe->id }}" onclick="deletePost(this)">削除</button>
+                              <button class="flex ml-auto mr-4 mt-4  text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded " href="#" data-id="{{ $department->id }}" onclick="deletePost(this)">削除</button>
                           {{-- </div> --}}
                             </form>
                         </font><br>
@@ -83,4 +88,3 @@ function deletePost(e) {
 </script>
 
 </html>
-
