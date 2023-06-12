@@ -59,12 +59,6 @@ class DepartmentController extends Controller
         $department = Department::find($department_id);
         $department->update([
             "department_name" => $request->department_name,
-            "year" => $request->year,
-            "period" => $request->period,
-            "teaching_form" => $request->teaching_form,
-            "number_of_units" => $request->number_of_units,
-            "department_classification" => $request->department_classification,
-            "department_content" => $request->department_content,
         ]);
         return redirect()->route('departments.index');
     }
