@@ -19,11 +19,10 @@ class TeacherRequest extends FormRequest
     {
         return [
             'user_name.required' => 'ユーザー名は必ず入力してください',
+            'user_name.max' => '30文字以内で入力してください',
+            'login_id.max' => '30文字以内で入力してください',
             'login_id.required' => 'ログインidは必ず入力してください',
             'password.required' => 'パスワードは必ず入力してください',
-            'name.max' => '名前は最大20文字まで入力できます',
-            'email.required' => 'メールアドレスは必ず入力してください',
-            'email.email' => 'メールアドレスの形式が正しくありません',
         ];
     }
 
@@ -35,8 +34,8 @@ class TeacherRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'user_name' => ['required'],
-            'login_id' => ['required'],
+            'user_name' => ['required','max:30'],
+            'login_id' => ['required', 'max:30'],
             'password' => ['required'],
         ];
     }
