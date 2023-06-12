@@ -9,7 +9,7 @@
     <!-- @vite('resources/css/app.css') -->
 </head>
 <body>
-    <h1 class="h1">科目変更画面</h1>
+    <h1 class="h1">科目項目変更画面</h1>
     <form action="{{route('subjects.update',$subject->id)}}" method="POST">
         @csrf
         @method('PUT')
