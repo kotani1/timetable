@@ -1,4 +1,6 @@
-<!-- 入力画面 -->
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -13,24 +15,24 @@
         @csrf
     <p>ユーザー名:
     <input type="text" maxlength="100" placeholder="ユーザー名" id="user_name" name="user_name" class="inner">
-    <p>{{$errors->first('user_name')}}</p>
+    <p class="error">{{$errors->first('user_name')}}</p>
     <p>ログインID:
     <input type="text" maxlength="200" id="login_id" name="login_id">
-    <p>{{$errors->first('login_id')}}</p>
+    <p class="error">{{$errors->first('login_id')}}</p>
     </p>
     <p>パスワード:
     <input type="password" maxlength="20" placeholder="半角英数8文字以上" id="password" name="password" class="inner">
-    <p>{{$errors->first('password')}}</p>
+    <p class="error">{{$errors->first('password')}}</p>
     </p>
     <p>権限</p>
     <div class="inner">
-    <select name="permit" >
-        <option value="-" class="inner">-</option>
-        <option value="0" class="inner">0</option>
-        <option value="1" class="inner">1</option>
-        <option value="2" class="inner">2</option>
-        <option value="3" class="inner">3</option>
-    </select>
+        <select name="permit" >
+            <option value="0" class="inner">0</option>
+            <option value="1" class="inner">1</option>
+            <option value="2" class="inner">2</option>
+            <option value="3" class="inner">3</option>
+        </select>
+        <p class="error">{{$errors->first('permit')}}</p>
     </div>
     <p><input type="submit" value="会員登録を行う"></p>
     </form>
