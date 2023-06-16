@@ -12,11 +12,10 @@
     <h1 class="h1" id="test">科目変更画面</h1>
     <form action="{{route('departments.update',$department->id)}}" method="POST">
 
-    
         <div class="return" >
             <button  type="" class="color">戻る</button>
         </div>
-
+        
         <p class="name" id="test">クラス名:
             <input type="text"  size="30" name="department_name"  placeholder="クラス名を入力してください" value="{{$department->department_name}}">
         </p>
@@ -24,6 +23,8 @@
         <div class="send" id="test">
             <button  type="" class="changecolor">送信する</button>
         </div>
+
+
     </form>
 
 
