@@ -1,12 +1,15 @@
 p{
     text-align: center;
   }
-  
+
   .inner{
     text-align: center;
   }
-  
+
   .example{
     text-align: center;
   }
 
+.error{
+  color: red;
+}
