@@ -11,8 +11,12 @@
 .color{
     background-color: aqua; /* 水色の背景色に変更 */
     color: black; /* 文字色を白色に変更 */
-    margin-left: 150px; /* 左に10ピクセル寄せる */
     font-size: 120%; 
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* 左に10ピクセル移動する例 */
+    left: calc(50% - 150px);
 
 }
 
