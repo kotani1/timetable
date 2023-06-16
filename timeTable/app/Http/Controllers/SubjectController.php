@@ -31,7 +31,7 @@ class SubjectController extends Controller
     public function store(Request $request)
     {
         Subject::create($request->post());
-        return redirect()->route('teachers.create');
+        return redirect()->route('subjects.index');
     }
 
     /**
@@ -45,9 +45,10 @@ class SubjectController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit()
+    public function edit($subject_id)
     {
-        return view('subjects.edit');
+        $subject = Subject::find($subject_id);
+        return view('subjects.edit',compact('subject'));
     }
 
     /**

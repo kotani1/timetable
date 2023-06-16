@@ -1,0 +1,33 @@
+#test{
+    /* 中央寄せ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; /* 画面の高さいっぱいに要素を配置するために必要 */
+}
+
+
+/* 戻る */
+.color{
+    background-color: aqua; /* 水色の背景色に変更 */
+    color: black; /* 文字色を白色に変更 */
+    margin-left: 150px; /* 左に10ピクセル寄せる */
+    font-size: 120%; 
+
+}
+
+/* クラス名 */
+.department_name{
+    width: 300px;
+}
+
+.name{
+    font-size: 150%;
+}
+
+/* 送信する */
+.changecolor{
+    background-color: beige; /* 青色の背景色に変更 */
+    color: black; /* 文字色を白色に変更 */
+    font-size: 140%;
+}
