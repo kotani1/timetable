@@ -13,15 +13,15 @@
         <button  onclick="location.href='{{route('departments.index')}}'" class="color">戻る</button>
     </div>
     <form action="{{route('departments.update',$department->id)}}" method="POST">
-
-<<<<<<< HEAD
-=======
-
+        @csrf
+        @method('PUT')
         <div class="return" >
-            <button  type="" class="color">戻る</button>
+            <button  type="" class="color">
+                <a href="{{route('departments.index')}}">
+                    戻る
+                </a>
+            </button>
         </div>
-
->>>>>>> c9a0e48 (aaaa)
         <p class="name" id="test">クラス名:
             <input type="text"  size="30" name="department_name"  placeholder="クラス名を入力してください" value="{{$department->department_name}}">
         </p>

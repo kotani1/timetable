@@ -21,8 +21,7 @@ class DepartmentController extends Controller
      */
     public function create()
     {
-        $errors = [];
-        return view('departments.create', compact('errors'));
+        return view('departments.create');
     }
 
     /**

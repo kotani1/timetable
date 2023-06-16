@@ -46,9 +46,10 @@ class TeacherController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit()
+    public function edit($teacher_id)
     {
-        return view('teachers.edit');
+        $teacher = Teacher::find($teacher_id);
+        return view('teachers.edit',compact('teacher'));
     }
 
     /**
