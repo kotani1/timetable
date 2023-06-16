@@ -24,6 +24,7 @@
     <button onclick="location.href='{{route('departments.create')}}'" class="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">
     登録画面へ</button>
   </div>
+  
         <section class="text-gray-600 body-font">
           <div class="container px-5 py-24 mx-auto">
             <div class="lg:w-2/3 w-full mx-auto overflow-auto">
@@ -51,13 +52,13 @@
                         <font class="text-2xl" style=" vertical-align: inherit;">授業形態：{{$department ->teaching_form}}</font><br>
                         <font class="text-2xl" style=" vertical-align: inherit;">科目内容：{{$department ->department_content}}</font><br>
                         <font class="text-2xl flex " style=" vertical-align: inherit;">科目分類：{{$department ->department_classification}} --}}
-                          {{-- <div class=""> --}}
-                            <button class="flex ml-auto mr-4 mt-4  text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onclick="location.href='{{ route('departments.edit', ['department' => $department->id])}}'">編集</button>
+                          <div class="flex justify-end">
+                            <button class="ml-auto mr-4 mt-4  text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onclick="location.href='{{ route('departments.edit', ['department' => $department->id])}}'">編集</button>
                             <form id="delete_{{ $department->id }}" method="post" action="{{route('departments.destroy',$department->id)}}">
                               @csrf
                               @method('delete')
-                              <button class="flex ml-auto mr-4 mt-4  text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded " href="#" data-id="{{ $department->id }}" onclick="deletePost(this)">削除</button>
-                          {{-- </div> --}}
+                              <button class="ml-auto mr-4 mt-4  text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded " href="#" data-id="{{ $department->id }}" onclick="deletePost(this)">削除</button>
+                          </div>
                             </form>
                         </font><br>
                       </font>
