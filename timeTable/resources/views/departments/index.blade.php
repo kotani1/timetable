@@ -53,11 +53,11 @@
                         <font class="text-2xl" style=" vertical-align: inherit;">科目内容：{{$department ->department_content}}</font><br>
                         <font class="text-2xl flex " style=" vertical-align: inherit;">科目分類：{{$department ->department_classification}} --}}
                           <div class="flex justify-end">
-                            <button class="flex  ml-auto mr-4 mt-4  text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onclick="location.href='{{ route('departments.edit', ['department' => $department->id])}}'">編集</button>
+                            <button class="ml-auto mr-4 mt-4  text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onclick="location.href='{{ route('departments.edit', ['department' => $department->id])}}'">編集</button>
                             <form id="delete_{{ $department->id }}" method="post" action="{{route('departments.destroy',$department->id)}}">
                               @csrf
                               @method('delete')
-                              <button class="flex ml-auto mr-4 mt-4  text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded " href="#" data-id="{{ $department->id }}" onclick="deletePost(this)">削除</button>
+                              <button class="ml-auto mr-4 mt-4  text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded " href="#" data-id="{{ $department->id }}" onclick="deletePost(this)">削除</button>
                           </div>
                             </form>
                         </font><br>
