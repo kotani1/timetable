@@ -3,30 +3,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-    /* 幅自動 */
-    width: auto;
+  height: 20vh; /* 画面の高さいっぱいに要素を配置するために必要 */
 }
 
+
 /* 戻る */
-.return{
-    
-    width: auto;
-    /* 左寄せ */
-    text-align: left;
-    
+.color{
+    background-color: aqua; /* 水色の背景色に変更 */
+    color: black; /* 文字色を白色に変更 */
+    margin-left: 150px; /* 左に10ピクセル寄せる */
+    font-size: 120%; 
+
 }
 
 /* クラス名 */
-.name{
-
-    background-color: white;
-    border: 2px solid black;
-    padding: 8px;
-    border-radius: 4px;
+.department_name{
+    width: 300px;
 }
 
+.name{
+    font-size: 150%;
+}
 
-.send{
-    color: red;
+/* 送信する */
+.changecolor{
+    background-color: beige; /* 青色の背景色に変更 */
+    color: black; /* 文字色を白色に変更 */
+    font-size: 140%;
 }
