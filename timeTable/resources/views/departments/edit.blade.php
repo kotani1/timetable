@@ -9,7 +9,7 @@
     <!-- @vite('resources/css/app.css') -->
 </head>
 <body>
-    <h1 class="h1" id="test">科目変更画面</h1>
+    <h1 class="h1" id="test">クラス変更画面</h1>
     <div class="return" >
         <button  onclick="location.href='{{route('departments.index')}}'" class="color">戻る</button>
     </div>
