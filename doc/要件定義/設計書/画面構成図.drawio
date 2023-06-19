@@ -1,11 +1,71 @@
 <mxfile host="65bd71144e">
-    <diagram id="CE3sPdwoKB8AXJ-z3cXn" name="科目">
-        <mxGraphModel dx="730" dy="1082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <diagram id="YiG1UCMLMeUJy5bUHjQ2" name="教室項目管理">
+        <mxGraphModel dx="986" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="310" y="-260" width="310" height="450" as="geometry"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="50" width="260" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="一覧画面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="20" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="教室名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="90" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="フロア" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="120" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="収容人数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="150" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="変更" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="160" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="削除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="160" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="50" width="260" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="登録画面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="750" y="20" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="教室名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="795" y="90" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="フロア" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="795" y="130" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="収容人数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="795" y="170" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="登録する" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="800" y="230" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="戻る" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="720" y="70" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1020" y="50" width="260" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="教室名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1115" y="90" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="フロア" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1115" y="130" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="収容人数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1115" y="170" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="変更する" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1120" y="230" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="戻る" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="70" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="変更画面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1070" y="20" width="160" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
