@@ -22,3 +22,4 @@ Route::get('/test', function () {
 Route::resource('teachers', 'TeacherController');
 Route::resource('subjects', 'SubjectController');
 Route::resource('departments', 'DepartmentController');
+Route::resource('classrooms', 'ClassroomController');
