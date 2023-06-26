@@ -3,27 +3,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 15vh; /* 画面の高さいっぱいに要素を配置するために必要 */
+  height: 20vh; /* 画面の高さいっぱいに要素を配置するために必要 */
 }
 
 
 /* 戻る */
 .color{
-    background-color: white; /* 水色の背景色に変更 */
+    background-color: aqua; /* 水色の背景色に変更 */
     color: black; /* 文字色を白色に変更 */
     font-size: 120%; 
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
     /* 左に10ピクセル移動する例 */
-    left: calc(50% - 250px);
-    
+    left: calc(50% - 150px);
+
 }
 
 /* クラス名 */
 .department_name{
     width: 300px;
-    
 }
 
 .name{

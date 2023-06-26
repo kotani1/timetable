@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/department.edit.css">
     <title>科目変更画面</title>
-    <!-- @vite('resources/css/app.css') -->
 </head>
 <body>
     <h1 class="h1" id="test">クラス変更画面</h1>
@@ -14,7 +13,15 @@
         <button  onclick="location.href='{{route('departments.index')}}'" class="color">戻る</button>
     </div>
     <form action="{{route('departments.update',$department->id)}}" method="POST">
-
+        @csrf
+        @method('PUT')
+        <div class="return" >
+            <button  type="" class="color">
+                <a href="{{route('departments.index')}}">
+                    戻る
+                </a>
+            </button>
+        </div>
         <p class="name" id="test">クラス名:
             <input type="text"  size="30" name="department_name"  placeholder="クラス名を入力してください" value="{{$department->department_name}}">
         </p>

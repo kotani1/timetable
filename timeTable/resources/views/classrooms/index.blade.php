@@ -15,14 +15,14 @@
     <div class="flex flex-col text-center w-full mb-20">
       <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">
         <font style="vertical-align: inherit;">
-          <font style="vertical-align: inherit;">クラス名登録一覧</font>
+          <font style="vertical-align: inherit;">教室名登録一覧</font>
         </font>
       </h1>
     </div>
   </div>
   <div class="flex justify-center items-center">
-    <button onclick="location.href='{{route('departments.create')}}'" class="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">
-    登録画面</button>
+    <button onclick="location.href='{{route('classrooms.create')}}'" class="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">
+    登録画面へ</button>
   </div>
   
         <section class="text-gray-600 body-font">
@@ -41,23 +41,23 @@
                   </tr>
                 </thead>
                 <tbody>
-                  @if (!$departments->isEmpty())
-                  @foreach ($departments as $department )
+                  @if (!$classrooms->isEmpty())
+                  @foreach ($classrooms as $classroom )
                   <tr>
                     <td class="px-4 py-3 divide-y divide-light-blue-700 border-4 border-gray-500/100">
                       <font style="vertical-align: inherit;">
-                        <font class="text-2xl" style=" vertical-align: inherit;">クラス名：{{$department ->department_name}}</font><br>
-                        {{-- <font class="text-2xl" style=" vertical-align: inherit;">期：{{$department ->period}}</font><br>
-                        <font class="text-2xl" style=" vertical-align: inherit;">科目名：{{$department ->department_name}}</font><br>
-                        <font class="text-2xl" style=" vertical-align: inherit;">授業形態：{{$department ->teaching_form}}</font><br>
+                        <font class="text-2xl" style=" vertical-align: inherit;">教室名：{{$classroom ->classroom_name}}</font><br>
+                        <font class="text-2xl" style=" vertical-align: inherit;">フロア：{{$classroom ->floor}}</font><br>
+                        <font class="text-2xl" style=" vertical-align: inherit;">収納人数：{{$classroom ->capacity}}</font><br>
+                        {{-- <font class="text-2xl" style=" vertical-align: inherit;">授業形態：{{$department ->teaching_form}}</font><br>
                         <font class="text-2xl" style=" vertical-align: inherit;">科目内容：{{$department ->department_content}}</font><br>
                         <font class="text-2xl flex " style=" vertical-align: inherit;">科目分類：{{$department ->department_classification}} --}}
                           <div class="flex justify-end">
-                            <button class="ml-auto mr-4 mt-4  text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onclick="location.href='{{ route('departments.edit', ['department' => $department->id])}}'">編集</button>
-                            <form id="delete_{{ $department->id }}" method="post" action="{{route('departments.destroy',$department->id)}}">
+                            <button class="ml-auto mr-4 mt-4  text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onclick="location.href='{{ route('classrooms.edit', ['classroom' => $classroom->id])}}'">編集</button>
+                            <form id="delete_{{ $classroom->id }}" method="post" action="{{route('classrooms.destroy',$classroom->id)}}">
                               @csrf
                               @method('delete')
-                              <button class="ml-auto mr-4 mt-4  text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded " href="#" data-id="{{ $department->id }}" onclick="deletePost(this)">削除</button>
+                              <button class="ml-auto mr-4 mt-4  text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded " href="#" data-id="{{ $classroom->id }}" onclick="deletePost(this)">削除</button>
                           </div>
                             </form>
                         </font><br>
