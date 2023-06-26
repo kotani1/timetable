@@ -8,9 +8,9 @@
     <title>教室管理</title>
 </head>
 <body>
-        <h1>教室管理登録</h1>
 
-        <p><input type="submit" value="戻る" class="modoru"></p>
+        <h1>教室管理登録</h1>
+        <p><input type="submit" value="戻る"></p>
 
         <p>教室名</p>
         <div class="inner">
