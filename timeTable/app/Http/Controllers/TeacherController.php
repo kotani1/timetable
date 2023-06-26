@@ -60,7 +60,6 @@ class TeacherController extends Controller
         $teacher = Teacher::find($teacher_id);
         $teacher->update([
             "user_name" => $request->user_name,
-            "login_id" => $request->login_id,
         ]);
         return redirect()->route('teachers.index');
     }

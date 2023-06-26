@@ -14,10 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
 });
 Route::get('/test', function () {
     return view('test');
+});
+Route::get('/home', function () {
+    return view('home');
 });
 Route::resource('teachers', 'TeacherController');
 Route::resource('subjects', 'SubjectController');
