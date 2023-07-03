@@ -15,7 +15,7 @@
     <div class="flex flex-col text-center w-full mb-20">
       <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">
         <font style="vertical-align: inherit;">
-          <font style="vertical-align: inherit;">科目登録一覧test</font>
+          <font style="vertical-align: inherit;">科目登録一覧</font>
         </font>
       </h1>
     </div>
@@ -45,7 +45,8 @@
                   <tr>
                     <td class="px-4 py-3 divide-y divide-light-blue-700 border-4 border-gray-500/100">
                       <font style="vertical-align: inherit;">
-                        <font class="text-2xl flex " style=" vertical-align: inherit;">科目分類：{{$subject_by_teacher ->subject_by_teacher_classification}}
+                        <font class="text-2xl flex " style=" vertical-align: inherit;">教員:{{$subject_by_teacher->teacher['user_name']}} </font>
+                        <font class="text-2xl flex " style=" vertical-align: inherit;">科目:{{$subject_by_teacher->subject['subject_name']}}
                           {{-- <div class=""> --}}
                             <button class="flex ml-auto mr-4 mt-4  text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" onclick="location.href='{{ route('subject_by_teachers.edit', ['subject_by_teacher' => $subject_by_teacher->id])}}'">編集</button>
                             <form id="delete_{{ $subject_by_teacher->id }}" method="post" action="{{route('subject_by_teachers.destroy',$subject_by_teacher->id)}}">

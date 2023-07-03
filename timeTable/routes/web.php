@@ -25,3 +25,4 @@ Route::resource('subjects', 'SubjectController');
 Route::resource('departments', 'DepartmentController');
 Route::resource('classrooms', 'ClassroomController');
 Route::resource('department_by_teachers', 'DepartmentByTeacherController');
+Route::resource('subject_by_teachers', 'SubjectByTeacherController');
