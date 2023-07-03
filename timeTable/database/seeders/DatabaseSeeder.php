@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+use App\Models\Classroom;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -22,6 +24,8 @@ class DatabaseSeeder extends Seeder
             SubjectSeeder::class,
             DepartmentSeeder::class,
             TeacherSeeder::class,
+            ClassroomSeeder::class,
+            DepartmentByTeacherSeeder::class,
         ]);
     }
 }

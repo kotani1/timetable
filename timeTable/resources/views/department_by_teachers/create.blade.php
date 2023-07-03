@@ -7,10 +7,11 @@
   <title>Document</title>
 </head>
 <body>
+
   <select>
     <option value="">-</option>
     @foreach ($teachers as $teacher)
-    <option value="">  {{$teacher->user_name}}
+    <option value="{{$teacher->id}}">  {{$teacher->user_name}}
 </option>
   @endforeach
   </select>
