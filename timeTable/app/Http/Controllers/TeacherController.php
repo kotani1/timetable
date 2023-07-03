@@ -72,4 +72,9 @@ class TeacherController extends Controller
         Teacher::find($teacher_id)->delete();
         return redirect()->route('teachers.index');
     }
+    public function test()
+    {
+        $teachers = Teacher::get();
+        return view('teachers_departments.create',compact('teachers'));
+    }
 }
