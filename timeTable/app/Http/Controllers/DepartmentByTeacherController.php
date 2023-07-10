@@ -12,7 +12,7 @@ class DepartmentByTeacherController extends Controller
      */
     public function index()
     {
-        $department_by_teachers = DepartmentByTeacher::get();
+        $department_by_teachers = DepartmentByTeacher::all();
         return view('department_by_teachers.index', compact('department_by_teachers'));
     }
 
