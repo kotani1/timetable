@@ -1,137 +1,46 @@
-/* h1 */
-.h1{
-
-  /* 中央寄せ */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* 幅 */
-  margin: 30px;
-
-}
-
-/* 科目名 */
-.name{
-
-  /* 中央寄せ */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* 幅 */
-  margin: 10px;
-
-}
-
-#name{
-
-  background-color: white;
-  border: 2px solid black;
-  padding: 8px;
-  border-radius: 4px;
-
-}
-
-/* 年度 */
-.year{
-
-  /* 中央寄せ */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* 幅 */
-  margin: 10px;
-
-}
-
-#year{
-
-  background-color: white;
-  border: 2px solid black;
-  padding: 8px;
-  border-radius: 4px;
-
-}
-
-
-/* 前期・後期 */
-.period{
-
-  /* 中央寄せ */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* 幅 */
-  margin: 10px;
-
-}
-
-
-/* 単位数 */
-.number{
-
-  /* 中央寄せ */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* 幅 */
-  margin: 10px;
-
-}
-
-/* 科目分類 */
-
-.classification{
-
-  /* 中央寄せ */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  /* 幅 */
-  margin: 10px;
-}
-
-#classification{
-
-  background-color: white;
-  border: 2px solid black;
-  padding: 8px;
-  border-radius: 4px;
-
-}
-
-/* 科目内容 */
-
-.content{
-
-  /* 中央寄せ */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-/* 幅 */
-  margin: 10px;
-}
-
-#content{
-
-  background-color: white;
-  border: 2px solid black;
-  padding: 8px;
-  border-radius: 4px;
-
-}
-
-/* 送信する */
-.send{
-
-  text-align: center;
-
-  /* 幅 */
-  margin: 10px;
-}
+.container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-control {
+    width: 300px;
+    padding: 5px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+  }
+  

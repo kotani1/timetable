@@ -52,53 +52,106 @@ height: 15vh;
 
 
 /* 戻る */
-.color{
-  background-color: white; 
-  color: black; 
-  font-size: 120%; 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.fullscreen-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.fullscreen-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.return {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.color {
+  background-color: white;
+  color: black;
+  font-size: 120%;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
   left: calc(50% - 250px);
-  
 }
 
-/* クラス名 */
-.department_name{
-  width: 300px;
-  
-}
-
-.name{
+.name {
   font-size: 150%;
+  text-align: center;
 }
 
-/* 送信する */
-.changecolor{
-  background-color: rgb(255, 255, 255); /* 青色の背景色に変更 */
-  color: black; /* 文字色を白色に変更 */
-  font-size: 140%;
+.department_name {
+  width: 300px;
 }
+
+.changecolor {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-size: 140%;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 
 
 
 /* ------------------------------------------------------------------------- */
 
 /* 科目項目変更画面 */
-
-#test{
-  /* 中央寄せ */
-display: flex;
-justify-content: center;
-align-items: center;
-height: 20vh; /* 画面の高さいっぱいに要素を配置するために必要 */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-p{
+.fullscreen-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.fullscreen-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+p {
   text-align: center;
 }
 
-.inner{
+.inner {
   text-align: center;
 }
+
 /* ------------------------------------------------------------------------ */

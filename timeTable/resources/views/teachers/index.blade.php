@@ -41,7 +41,6 @@
                 </thead>
                 <tbody>
                   @if (!$teachers->isEmpty())
-                  <?php dd($teachers) ?>
                   @foreach ($teachers as $teacher )
                   <tr>
                     <td class="px-4 py-3 divide-y divide-light-blue-700">
