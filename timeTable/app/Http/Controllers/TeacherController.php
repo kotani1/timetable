@@ -75,6 +75,6 @@ class TeacherController extends Controller
     public function test()
     {
         $teachers = Teacher::get();
-        return view('teachers_departments.create',compact('teachers'));
+        return view('department_by_teachers.create',compact('teachers'));
     }
 }

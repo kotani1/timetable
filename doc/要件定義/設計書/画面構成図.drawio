@@ -1,6 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="YiG1UCMLMeUJy5bUHjQ2" name="教室管理">
+<<<<<<< HEAD
         <mxGraphModel dx="712" dy="323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+=======
+        <mxGraphModel dx="767" dy="262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+>>>>>>> 7d4dada49258a2add0147701c257b33981151f62
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -148,7 +152,11 @@
         </mxGraphModel>
     </diagram>
     <diagram name="教員&amp;クラス機能" id="D72yzpinDRPM8GzXFSJx">
+<<<<<<< HEAD
         <mxGraphModel dx="712" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+=======
+        <mxGraphModel dx="767" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+>>>>>>> 7d4dada49258a2add0147701c257b33981151f62
             <root>
                 <mxCell id="Qpe8IAPRPjxVbZxzlTTx-0"/>
                 <mxCell id="Qpe8IAPRPjxVbZxzlTTx-1" parent="Qpe8IAPRPjxVbZxzlTTx-0"/>
@@ -207,7 +215,11 @@
                     <mxGeometry x="355" y="115" width="70" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="Qpe8IAPRPjxVbZxzlTTx-21" value="教員名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
+<<<<<<< HEAD
                     <mxGeometry x="795" y="110" width="70" height="30" as="geometry"/>
+=======
+                    <mxGeometry x="795" y="100" width="70" height="30" as="geometry"/>
+>>>>>>> 7d4dada49258a2add0147701c257b33981151f62
                 </mxCell>
                 <mxCell id="Qpe8IAPRPjxVbZxzlTTx-22" value="クラス" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="795" y="180" width="70" height="30" as="geometry"/>
@@ -220,6 +232,12 @@
                 </mxCell>
                 <mxCell id="D4uzERKkWu-2K9eKtjz4-1" value="情報システム学科" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="410" y="115" width="97.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="67u41sBpvIelB4RvIE8H-1" value="&amp;lt;select&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                    <mxGeometry x="770" y="130" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="67u41sBpvIelB4RvIE8H-2" value="&#10;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(42, 37, 47); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;select&amp;gt;&lt;/span&gt;&#10;&#10;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                    <mxGeometry x="770" y="210" width="120" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

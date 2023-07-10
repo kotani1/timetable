@@ -50,5 +50,17 @@ class TeacherSeeder extends Seeder
             'password' => 'password',
             'permit' => 0,
         ]);
+        Teacher::create([
+            'login_id' => 'enomoto',
+            'user_name' => '榎本　祐介',
+            'password' => 'password',
+            'permit' => 0,
+        ]);
+        Teacher::create([
+            'login_id' => 'katayama',
+            'user_name' => '片山　光文',
+            'password' => 'password',
+            'permit' => 0,
+        ]);
     }
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/department.edit.css">
+    <link rel="stylesheet" href="/css/editclas.css">
     <title>科目変更画面</title>
 </head>
 <body>
@@ -15,13 +15,13 @@
     <form action="{{route('departments.update',$department->id)}}" method="POST">
         @csrf
         @method('PUT')
-        <div class="return" >
-            <button  type="" class="color">
+        <!-- <div class="return" >
+            <button  type="" class="color" id="test">
                 <a href="{{route('departments.index')}}">
-                    戻る
+                    
                 </a>
             </button>
-        </div>
+        </div> -->
         <p class="name" id="test">クラス名:
             <input type="text"  size="30" name="department_name"  placeholder="クラス名を入力してください" value="{{$department->department_name}}">
         </p>

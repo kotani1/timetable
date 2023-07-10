@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/department.edit.css">
-    <title>時間割アプリ</title>
+    <link rel="stylesheet" href="/css/editclas.css">
+    <title>科目変更画面</title>
 </head>
 <body>
     <h1 class="h1" id="test">教室変更画面</h1>

@@ -1,0 +1,104 @@
+/* 教室変更画面 */
+
+#test{
+    /* 中央寄せ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; /* 画面の高さいっぱいに要素を配置するために必要 */
+}
+
+
+
+/* 戻る */
+.color{
+    background-color: white; /* 水色の背景色に変更 */
+    color: black; /* 文字色を白色に変更 */
+    font-size: 120%; 
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* 左に10ピクセル移動する例 */
+    left: calc(40% - 150px);
+
+}
+
+/* クラス名 */
+.department_name{
+    width: 300px;
+}
+
+.name{
+    font-size: 150%;
+}
+
+/* 送信する */
+.changecolor{
+    background-color: rgb(255, 255, 255); /* 青色の背景色に変更 */
+    color: black; /* 文字色を白色に変更 */
+    font-size: 140%;
+}
+
+
+/* ----------------------------------------------------- */
+/* クラス変更画面 */
+
+/* #test{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 15vh; 
+} */
+
+
+/* 戻る */
+.color{
+  background-color: white; 
+  color: black; 
+  font-size: 120%; 
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  left: calc(50% - 250px);
+  
+}
+
+/* クラス名 */
+.department_name{
+  width: 300px;
+  
+}
+
+.name{
+  font-size: 150%;
+}
+
+/* 送信する */
+.changecolor{
+  background-color: rgb(255, 255, 255); /* 青色の背景色に変更 */
+  color: black; /* 文字色を白色に変更 */
+  font-size: 140%;
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+
+/* 科目項目変更画面 */
+
+#test{
+  /* 中央寄せ */
+display: flex;
+justify-content: center;
+align-items: center;
+height: 20vh; /* 画面の高さいっぱいに要素を配置するために必要 */
+}
+
+p{
+  text-align: center;
+}
+
+.inner{
+  text-align: center;
+}
+/* ------------------------------------------------------------------------ */

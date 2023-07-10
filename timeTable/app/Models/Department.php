@@ -9,4 +9,8 @@ class Department extends Model
 {
     use HasFactory;
     protected $guarded = ['id', 'created_at'];
+    public function departmentByTeacher()
+    {
+        return $this->hasOne(DepartmentByTeacher::class);
+    }
 }
