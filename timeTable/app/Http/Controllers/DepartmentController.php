@@ -13,6 +13,7 @@ class DepartmentController extends Controller
     public function index()
     {
         $departments = Department::get();
+        // dd($departments);
         return view('departments.index', compact('departments'));
     }
 
