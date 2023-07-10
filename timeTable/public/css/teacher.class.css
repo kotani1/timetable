@@ -1,3 +1,8 @@
+h1{
+    text-align: center;
+    font-size: 155%;
+}
+
 p{
     text-align: center;
     font-size: 150%;
@@ -20,4 +25,13 @@ p{
     height: 40px;
     font-size: 70%;
     width: 5%;
+}
+
+select{
+    height:30px;
+    font-size: 110%;
+}
+
+.select1{
+    width: 50px;
 }
