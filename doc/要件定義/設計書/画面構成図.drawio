@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="YiG1UCMLMeUJy5bUHjQ2" name="教室管理">
-        <mxGraphModel dx="1704" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="712" dy="323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -71,154 +71,154 @@
         </mxGraphModel>
     </diagram>
     <diagram id="jh_dIfsEcqpwyZT0biDw" name="教員&amp;科目機能">
-        <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="712" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="355" y="20" width="260" height="350" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-2" value="一覧画面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-2" value="一覧画面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="392.5" y="-10" width="160" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-4" value="教員名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-4" value="教員名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="360" y="80" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-6" value="変更" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-6" value="変更" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="520" y="120" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-7" value="削除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-7" value="削除" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="565" y="120" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="700" y="50" width="260" height="320" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-9" value="登録画面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-9" value="登録画面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="750" y="20" width="160" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-13" value="登録する" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-13" value="登録する" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="800" y="230" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-14" value="戻る" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-14" value="戻る" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="720" y="70" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1020" y="50" width="260" height="320" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-16" value="教室名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-16" value="教室名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="1115" y="90" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-17" value="フロア" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-17" value="フロア" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="1115" y="130" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-18" value="収容人数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-18" value="収容人数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="1115" y="170" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-19" value="変更する" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-19" value="変更する" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1120" y="230" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-20" value="戻る" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-20" value="戻る" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="1040" y="70" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-21" value="変更画面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-21" value="変更画面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="1070" y="20" width="160" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-22" value="科目名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-22" value="科目名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="450" y="80" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-24" value="塩田" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-24" value="塩田" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="360" y="115" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-25" value="社会人基礎講座" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-25" value="社会人基礎講座" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="425" y="115" width="95" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-26" value="教員名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-26" value="教員名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="795" y="110" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-27" value="科目名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-27" value="科目名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="795" y="180" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-29" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="V3NBRn1tT8Y8hLtG4vcR-28" target="V3NBRn1tT8Y8hLtG4vcR-2">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-29" value="" style="edgeStyle=none;html=1;" parent="1" source="V3NBRn1tT8Y8hLtG4vcR-28" target="V3NBRn1tT8Y8hLtG4vcR-2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-28" value="登録画面へ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="V3NBRn1tT8Y8hLtG4vcR-28" value="登録画面へ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="420" y="30" width="120" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram name="教員&amp;クラス機能" id="D72yzpinDRPM8GzXFSJx">
-        <mxGraphModel dx="852" dy="1049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="712" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="Qpe8IAPRPjxVbZxzlTTx-0"/>
                 <mxCell id="Qpe8IAPRPjxVbZxzlTTx-1" parent="Qpe8IAPRPjxVbZxzlTTx-0"/>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="355" y="20" width="260" height="350" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-3" value="一覧画面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-3" value="一覧画面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="392.5" y="-10" width="160" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-4" value="教員名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-4" value="教員名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="360" y="80" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-5" value="変更" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-5" value="変更" style="rounded=1;whiteSpace=wrap;html=1;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="520" y="120" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-6" value="削除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-6" value="削除" style="rounded=1;whiteSpace=wrap;html=1;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="565" y="120" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="700" y="50" width="260" height="320" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-8" value="登録画面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-8" value="登録画面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="750" y="20" width="160" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-9" value="登録する" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-9" value="登録する" style="rounded=1;whiteSpace=wrap;html=1;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="800" y="260" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-10" value="戻る" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-10" value="戻る" style="rounded=1;whiteSpace=wrap;html=1;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="720" y="70" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="1020" y="50" width="260" height="320" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-12" value="教室名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-12" value="教室名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="1115" y="90" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-13" value="フロア" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-13" value="フロア" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="1115" y="130" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-14" value="収容人数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-14" value="収容人数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="1115" y="170" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-15" value="変更する" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-15" value="変更する" style="rounded=1;whiteSpace=wrap;html=1;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="1120" y="230" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-16" value="戻る" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-16" value="戻る" style="rounded=1;whiteSpace=wrap;html=1;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="1040" y="70" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-17" value="変更画面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-17" value="変更画面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="1070" y="20" width="160" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-18" value="クラス" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-18" value="クラス" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="450" y="80" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-19" value="塩田" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-19" value="塩田" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="355" y="115" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-21" value="教員名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-21" value="教員名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="795" y="110" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-22" value="クラス" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-22" value="クラス" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="795" y="180" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-23" value="" style="edgeStyle=none;html=1;" edge="1" parent="Qpe8IAPRPjxVbZxzlTTx-1" source="Qpe8IAPRPjxVbZxzlTTx-24" target="Qpe8IAPRPjxVbZxzlTTx-3">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-23" value="" style="edgeStyle=none;html=1;" parent="Qpe8IAPRPjxVbZxzlTTx-1" source="Qpe8IAPRPjxVbZxzlTTx-24" target="Qpe8IAPRPjxVbZxzlTTx-3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-24" value="登録画面へ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="Qpe8IAPRPjxVbZxzlTTx-24" value="登録画面へ" style="rounded=1;whiteSpace=wrap;html=1;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="420" y="30" width="120" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="D4uzERKkWu-2K9eKtjz4-1" value="情報システム学科" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Qpe8IAPRPjxVbZxzlTTx-1">
+                <mxCell id="D4uzERKkWu-2K9eKtjz4-1" value="情報システム学科" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Qpe8IAPRPjxVbZxzlTTx-1" vertex="1">
                     <mxGeometry x="410" y="115" width="97.5" height="30" as="geometry"/>
                 </mxCell>
             </root>
