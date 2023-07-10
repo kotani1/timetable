@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\DepartmentByTeacher;
 use Illuminate\Http\Request;
+use App\Models\Teacher;
+use App\Models\Department;
 
 class DepartmentByTeacherController extends Controller
 {
@@ -21,7 +23,9 @@ class DepartmentByTeacherController extends Controller
      */
     public function create()
     {
-        return view('department_by_teachers.create');
+        $teachers  = Teacher::get();
+        $departments = Department::get();
+        return view('department_by_teachers.create',compact('teachers','departments'));
     }
 
     /**
