@@ -5,26 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/editclas.css">
-    <title>科目変更画面</title>
+    <title>教員＆科目変更画面</title>
 </head>
 <body>
     <h1 class="h1" id="test">教室変更画面</h1>
     <div class="return" >
-        <button  onclick="location.href='{{route('classrooms.index')}}'" class="color">戻る</button>
+        <button  onclick="location.href='{{route('department_by_teachers.index')}}'" class="color">戻る</button>
     </div>
-    <form action="{{route('classrooms.update',$classroom->id)}}" method="POST">
+    <form action="{{route('department_by_teachers.update',$department_by_teacher->id)}}" method="POST">
         @csrf
         @method('PUT')
-        <p class="name" id="test">教室名:
-            <input type="text"   font-size: 150%; size="30" name="classroom_name"  placeholder="クラス名を入力してください" value="{{$classroom->classroom_name}}">
+        <p class="name" id="test">教員名:
+            <input type="text"   font-size: 150%; size="30" name="classroom_name"  placeholder="教員名を入力してください" value="{{$department_by_teacher->teacher['user_name']}}">
         </p>
 
-        <p class="name" id="test">フロア:
-            <input type="text"   size="30" name="floor"  placeholder="フロアを入力してください" value="{{$classroom->floor}}">
-        </p>
-
-        <p class="name" id="test">収容人数:
-            <input type="text"  size="30" name="capacity"  placeholder="収容人数を入力してください" value="{{$classroom->capacity}}">
+        <p class="name" id="test">科目名:
+            <input type="text"   size="30" name="floor"  placeholder="科目を入力してください" value="{{$department_by_teacher->department['department_name']}}">
         </p>
 
         <div class="send" id="test">
