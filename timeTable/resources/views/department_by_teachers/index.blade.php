@@ -51,7 +51,7 @@
                   <tr>
                     <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">
                       <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">クラス名</font>
+                        <font style="vertical-align: inherit;"> 教員＆科目</font>
                       </font>
                     </th>
                     {{-- <th class="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br"></th> --}}
