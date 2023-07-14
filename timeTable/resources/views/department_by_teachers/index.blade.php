@@ -63,9 +63,9 @@
                   <tr>
                     <td class="px-4 py-3 divide-y divide-light-blue-700 border-4 border-gray-500/100">
                       <font style="vertical-align: inherit;">
-                        <font class="text-2xl" style=" vertical-align: inherit;">教員ID：{{$department_by_teacher->teacher['id']}}</font><br>
+                        <font class="text-2xl" style=" vertical-align: inherit;">学年：{{$department_by_teacher->school_year}}</font><br>
                         <font class="text-2xl" style=" vertical-align: inherit;">教員名：{{$department_by_teacher->teacher['user_name']}}</font><br>
-                        <font class="text-2xl" style=" vertical-align: inherit;">科目名：{{$department_by_teacher->department['department_name']}}</font><br>
+                        <font class="text-2xl" style=" vertical-align: inherit;">学科名：{{$department_by_teacher->department['department_name']}}</font><br>
                         {{-- <font class="text-2xl" style=" vertical-align: inherit;">授業形態：{{$department ->teaching_form}}</font><br>
                         <font class="text-2xl" style=" vertical-align: inherit;">科目内容：{{$department ->department_content}}</font><br>
                         <font class="text-2xl flex " style=" vertical-align: inherit;">科目分類：{{$department ->department_classification}} --}}
