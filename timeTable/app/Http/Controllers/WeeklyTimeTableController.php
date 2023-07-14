@@ -2,20 +2,34 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Subject;
+use App\Models\WeeklyTimeTable;
 use App\Models\SubjectByTeacher;
-use App\Models\Teacher;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
-class SubjectByTeacherController extends Controller
+class WeeklyTimeTableController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        $subject_by_teachers = SubjectByTeacher::get();
-        return view('subject_by_teachers.index', compact('subject_by_teachers'));
+        $weekly_time_tables =  WeeklyTimeTable::orderBy('period', 'asc')->orderByRaw("
+        CASE day_of_week
+        WHEN '月' THEN 1
+        WHEN '火' THEN 2
+        WHEN '水' THEN 3
+        WHEN '木' THEN 4
+        WHEN '金' THEN 5 END ")->get();
+        // $weekly_time_tables = DB::select("SELECT * FROM weekly_time_tables
+        // ORDER BY period ,
+        // CASE day_of_week
+        // WHEN '月' THEN 1
+        // WHEN '火' THEN 2
+        // WHEN '水' THEN 3
+        // WHEN '木' THEN 4
+        // WHEN '金' THEN 5 END ");
+        return view('weekly_time_tables.index', compact('weekly_time_tables'));
     }
 
     /**
@@ -23,9 +37,8 @@ class SubjectByTeacherController extends Controller
      */
     public function create()
     {
-        $subjects = Subject::get();
-        $teachers = Teacher::get();
-        return view('subject_by_teachers.create',compact('subjects', 'teachers'));
+        $subject_by_teachers = SubjectByTeacher::get();
+        return view('weekly_time_tables.create', compact('subject_by_teachers'));
     }
 
     /**
@@ -50,10 +63,8 @@ class SubjectByTeacherController extends Controller
      */
     public function edit($subject_by_teacher_id)
     {
-        $subjects = Subject::get();
-        $teachers = Teacher::get();
         $subject_by_teacher = SubjectByTeacher::find($subject_by_teacher_id);
-        return view('subject_by_teachers.edit', compact('subject_by_teacher', 'subjects', 'teachers'));
+        return view('weekly_time_tables.edit', compact('subject_by_teacher', 'subjects', 'teachers'));
     }
 
     /**
@@ -63,7 +74,7 @@ class SubjectByTeacherController extends Controller
     {
         $subject_by_teacher = SubjectByTeacher::find($subject_by_teacher_id);
         $subject_by_teacher::update($request->post());
-        return redirect()->route('subject_by_teachers.index');
+        return redirect()->route('weekly_time_tables.index');
     }
 
     /**
@@ -72,6 +83,6 @@ class SubjectByTeacherController extends Controller
     public function destroy($subject_by_teacher_id)
     {
         SubjectByTeacher::find($subject_by_teacher_id)->delete();
-        return redirect()->route('subject_by_teachers.index');
+        return redirect()->route('weekly_time_tables.index');
     }
 }

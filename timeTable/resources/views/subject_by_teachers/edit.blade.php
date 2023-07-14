@@ -1,13 +1,30 @@
-<div class="container">
-    <h1>教員登録画面の編集test</h1>
-    <form method="POST" action="{{route('teachers.update',$teacher->id)}}" >
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2>変更画面</h2>
+    <form action="{{route('subject_by_teachers.store')}}" method="POST">
         @csrf
-        @method('PUT')
-        <div class="form-group">
-            <label for="user_name">ユーザーネーム</label>
-            <input type="text" name="user_name" id="user_name" class="form-control" value="{{$teacher->user_name}}" placeholder="ユーザーネームを入力してください">
-        </div>
-        <input type="submit" value="決定" class="btn btn-primary">
-        <input type="reset" value="戻る" class="btn btn-secondary" onclick='window.history.back(-1);'>
-    </form>
-</div>
+        <h3>教員</h3>
+        <select name="teacher_id">
+            <option value=" ">{{$subject_by_teacher->teacher['user_name']}}</option>
+            @foreach ($teachers as $teacher)
+            <option value="{{$teacher->id}}">  {{$teacher->user_name}}</option>
+            @endforeach
+    </select>
+    <h3>科目</h3>
+        <select name="subject_id">
+            <option value="">{{$subject_by_teacher->subject['subject_name']}}</option>
+            @foreach ($subjects as $subject)
+            <option value="{{$subject->id}}">  {{$subject->subject_name}}</option>
+            @endforeach
+    </select>
+    <button type="submit">変更</button>
+  </form>
+</body>
+</html>

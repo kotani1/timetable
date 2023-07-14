@@ -23,6 +23,7 @@
   <div class="flex justify-center items-center">
     <button onclick="location.href='{{route('subject_by_teachers.create')}}'" class="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded">
     登録画面へ</button>
+    <a href="/home">ホーム画面へ</a>
   </div>
         <section class="text-gray-600 body-font">
           <div class="container px-5 py-24 mx-auto">

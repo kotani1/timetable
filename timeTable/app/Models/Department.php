@@ -9,7 +9,7 @@ class Department extends Model
 {
     use HasFactory;
     protected $guarded = ['id', 'created_at'];
-    public function departmentByTeacher()
+    public function department_by_teacher()
     {
         return $this->hasOne(DepartmentByTeacher::class);
     }

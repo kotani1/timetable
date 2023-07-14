@@ -20,9 +20,11 @@ Route::get('/test', 'TeacherController@test');
 Route::get('/home', function () {
     return view('home');
 });
+
 Route::resource('teachers', 'TeacherController');
 Route::resource('subjects', 'SubjectController');
 Route::resource('departments', 'DepartmentController');
 Route::resource('classrooms', 'ClassroomController');
 Route::resource('department_by_teachers', 'DepartmentByTeacherController');
 Route::resource('subject_by_teachers', 'SubjectByTeacherController');
+Route::resource('weekly_time_tables', 'WeeklyTimeTableController');

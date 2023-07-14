@@ -19,4 +19,8 @@ class SubjectByTeacher extends Model
     {
         return $this->belongsTo(Teacher::class);
     }
+    public function weeklyTimeTable()
+    {
+        return $this->hasMany(WeeklyTimeTable::class);
+    }
 }
