@@ -21,14 +21,6 @@ class WeeklyTimeTableController extends Controller
         WHEN '水' THEN 3
         WHEN '木' THEN 4
         WHEN '金' THEN 5 END ")->get();
-        // $weekly_time_tables = DB::select("SELECT * FROM weekly_time_tables
-        // ORDER BY period ,
-        // CASE day_of_week
-        // WHEN '月' THEN 1
-        // WHEN '火' THEN 2
-        // WHEN '水' THEN 3
-        // WHEN '木' THEN 4
-        // WHEN '金' THEN 5 END ");
         return view('weekly_time_tables.index', compact('weekly_time_tables'));
     }
 
@@ -38,7 +30,14 @@ class WeeklyTimeTableController extends Controller
     public function create()
     {
         $subject_by_teachers = SubjectByTeacher::get();
-        return view('weekly_time_tables.create', compact('subject_by_teachers'));
+        $weekly_time_tables =  WeeklyTimeTable::orderBy('period', 'asc')->orderByRaw("
+        CASE day_of_week
+        WHEN '月' THEN 1
+        WHEN '火' THEN 2
+        WHEN '水' THEN 3
+        WHEN '木' THEN 4
+        WHEN '金' THEN 5 END ")->get();
+        return view('weekly_time_tables.create', compact('subject_by_teachers', 'weekly_time_tables'));
     }
 
     /**

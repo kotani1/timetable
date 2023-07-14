@@ -23,7 +23,7 @@
   </select>
   </div>
 
-  <p>クラス</p>
+  <p>学科</p>
   <div class="inner">
   <select>
     <option value="" class="inner">-</option>

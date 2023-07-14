@@ -7,8 +7,10 @@
   <title>Document</title>
 </head>
 <body>
-  <table border="1">
-    <tr>
+    <table border="1">
+    <caption></caption>
+    <thead>
+      <tr>
       <td>　</td>
       <td>月</td>
       <td>火</td>
@@ -16,48 +18,37 @@
       <td>木</td>
       <td>金</td>
     </tr>
-    <tr>
-      <td>1</td>
-      <td class="td"></td>
-      <td class="td"></td>
-      <td class="td"></td>
-      <td class="td"></td>
-      <td class="td"></td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
+    </thead>
+    <tbody>
+      @foreach ($weekly_time_tables as $weekly_time_table)
+        @if($weekly_time_table->day_of_week == '月')
+          <tr><td>{{$weekly_time_table->period}}</td>
+        @endif
+        <td class="td">
+          @if($weekly_time_table->subject_by_teacher_id != 0)
+          <p>
+              {{$weekly_time_table->subject_by_teacher->subject['subject_name']}}
+            </p>
+          <p>
+          {{$weekly_time_table->subject_by_teacher->teacher['user_name']}}
+          </p>
+          @endif
+        </td>
+        @if($weekly_time_table->day_of_week == '金')
+          </tr>
+        @endif
+      @endforeach
+    </tbody>
   </table>
   <div id="mask" class="hidden"></div>
 <section id="modal" class="hidden">
   @foreach ($subject_by_teachers as $subject_by_teacher)
   <div class="subject_by_teacher">
     <p>
-      教員:{{$subject_by_teacher->teacher['user_name']}}
-    </p>
-    <p>
       科目:{{$subject_by_teacher->subject['subject_name']}}
+    </p>
+     <p>
+      教員:{{$subject_by_teacher->teacher['user_name']}}
     </p>
     <p>残りコマ数:</p>
   </div>
