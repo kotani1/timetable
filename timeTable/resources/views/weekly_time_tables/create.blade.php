@@ -7,8 +7,23 @@
   <title>Document</title>
 </head>
 <body>
-    <table border="1">
-    <caption></caption>
+    <form action="{{route('weekly_time_tables_searched')}}" method="POST">
+    @csrf
+    <select name="department_by_teacher_id" id="">
+      <option value="">-</option>
+      @foreach($department_by_teachers as $department_by_teacher)
+        <option value="{{$department_by_teacher->id}}">
+          {{$department_by_teacher->school_year}}年生
+          {{$department_by_teacher->department['department_name']}}
+        </option>
+      @endforeach
+    </select>
+    <button>検索</button>
+  </form>
+
+  <table border="1">
+    @if(!empty($weekly_time_tables))
+    <caption>{{$class_name}}</caption>
     <thead>
       <tr>
       <td>　</td>
@@ -21,10 +36,13 @@
     </thead>
     <tbody>
       @foreach ($weekly_time_tables as $weekly_time_table)
+        @if($weekly_time_table->department_by_teacher_id != 4)
+        @break
+        @endif
         @if($weekly_time_table->day_of_week == '月')
           <tr><td>{{$weekly_time_table->period}}</td>
         @endif
-        <td class="td">
+        <td>
           @if($weekly_time_table->subject_by_teacher_id != 0)
           <p>
               {{$weekly_time_table->subject_by_teacher->subject['subject_name']}}
@@ -40,6 +58,9 @@
       @endforeach
     </tbody>
   </table>
+   @else
+   <h3>検索してください</h3>
+   @endif
   <div id="mask" class="hidden"></div>
 <section id="modal" class="hidden">
   @foreach ($subject_by_teachers as $subject_by_teacher)

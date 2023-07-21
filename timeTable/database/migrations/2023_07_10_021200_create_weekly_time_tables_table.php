@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('weekly_time_tables', function (Blueprint $table) {
             $table->id();
             $table->integer('subject_by_teacher_id');
+            $table->integer('department_by_teacher_id');
             $table->string('day_of_week', 30);
             $table->integer('period');
             $table->timestamps();

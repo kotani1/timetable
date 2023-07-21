@@ -14,4 +14,8 @@ class WeeklyTimeTable extends Model
     {
         return $this->belongsTo(SubjectByTeacher::class);
     }
+    public function department_by_teacher()
+    {
+        return $this->belongsTo(DepartmentByTeacher::class);
+    }
 }

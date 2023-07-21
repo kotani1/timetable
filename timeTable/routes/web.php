@@ -28,3 +28,4 @@ Route::resource('classrooms', 'ClassroomController');
 Route::resource('department_by_teachers', 'DepartmentByTeacherController');
 Route::resource('subject_by_teachers', 'SubjectByTeacherController');
 Route::resource('weekly_time_tables', 'WeeklyTimeTableController');
+Route::post('weekly_time_tables/searched', 'WeeklyTimeTableController@index')->name('weekly_time_tables_searched');

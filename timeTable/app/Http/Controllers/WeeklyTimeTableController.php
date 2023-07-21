@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\DepartmentByTeacher;
 use App\Models\WeeklyTimeTable;
 use App\Models\SubjectByTeacher;
 use Illuminate\Http\Request;
@@ -12,16 +13,30 @@ class WeeklyTimeTableController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
-        $weekly_time_tables =  WeeklyTimeTable::orderBy('period', 'asc')->orderByRaw("
-        CASE day_of_week
-        WHEN '月' THEN 1
-        WHEN '火' THEN 2
-        WHEN '水' THEN 3
-        WHEN '木' THEN 4
-        WHEN '金' THEN 5 END ")->get();
-        return view('weekly_time_tables.index', compact('weekly_time_tables'));
+        $weekly_time_tables = [];
+        $class_name = [];
+        if($request->department_by_teacher_id != NULL){
+            $class = DepartmentByTeacher::find($request->department_by_teacher_id);
+            $class_name = $class->school_year .'年生' . $class->department['department_name'] . '学科';
+
+            $department_by_teacher_id = $request->department_by_teacher_id;
+            $weekly_time_tables =  WeeklyTimeTable::where(
+                'department_by_teacher_id',
+                '=',
+                $request->department_by_teacher_id
+            )->orderBy('period', 'asc')->orderByRaw("
+                CASE day_of_week
+                WHEN '月' THEN 1
+                WHEN '火' THEN 2
+                WHEN '水' THEN 3
+                WHEN '木' THEN 4
+                WHEN '金' THEN 5 END ")->get();
+        }
+
+        $department_by_teachers = DepartmentByTeacher::get();
+        return view('weekly_time_tables.index', compact('weekly_time_tables', 'department_by_teachers', 'class_name'));
     }
 
     /**

@@ -29,5 +29,10 @@ class DepartmentByTeacherSeeder extends Seeder
             "teacher_id" => 8,
             "school_year" => 1
         ]);
+        DepartmentByTeacher::create([
+            "department_id" => 1,
+            "teacher_id" => 2,
+            "school_year" => 3
+        ]);
     }
 }
