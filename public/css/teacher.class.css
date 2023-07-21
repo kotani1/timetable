@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    font-size: 155%;
+}
+
+p{
+    text-align: center;
+    font-size: 150%;
+}
+
+.inner{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 110%;
+}
+
+.button{
+    height: 40px;
+    font-size: 70%;
+}
+
+.modoru{
+    height: 40px;
+    font-size: 70%;
+    width: 5%;
+}
+
+select{
+    height:30px;
+    font-size: 110%;
+}
+
+.select1{
+    width: 50px;
+}
